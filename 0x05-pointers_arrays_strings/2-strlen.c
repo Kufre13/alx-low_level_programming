@@ -1,16 +1,20 @@
 #include "main.h"
-
 /**
-* _strlen - string lenght
-* @s: params
-* Return: int
+* _strlen - read string parameter
+*
+* @s: string parameter to be read
+*
+* Return: Length of string
 */
 int _strlen(char *s)
 {
-int count = 0;
-while (s[count] != '\0')
+int i;
+
+i = 0;
+while (*s != '\0')
 {
-count++;
+i++;
+s++;
 }
-return (count);
+return (i);
 }
