@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 int _putchar(char c);
+void swap_int(int *a, int *b);
 void reset_to_98(int *n);
 void print_array(int *a, int *n);
 int _strlen(char *s);
