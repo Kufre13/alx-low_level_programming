@@ -4,11 +4,8 @@
 
 int _putchar(char c);
 void reset_to_98(int *n);
-<<<<<<< HEAD
 void print_array(int *a, int *n);
-=======
 void print_array(int *a, int n);
->>>>>>> 2c979b732937a835b52dfb785be1d2d6ac91461f
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
